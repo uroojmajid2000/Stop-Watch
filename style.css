@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+background-image:url('images/stopwatch.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 90vh;
+  color: white;
+}
+button {
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 6px 6px 3px #aaaaaa;
+     margin-left: 3rem;
+}
+#stopwatch {
+    font-size: 5rem;
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+    
+}
+#buttons {
+    position: absolute;
+    top: 16rem;
+    /* left: 10rem; */
+   
+}
+#buttons li {
+list-style: none;
+/* line-height: 3rem;     */
+display: inline;
+}
+
+.lap-box {
+    border: .5px solid white;
+top: 21rem;
+position: absolute;
+margin-left: 5rem;
+    overflow-y: scroll;
+    width: 25rem;
+    box-shadow: 2px 3px 3px #aaaaaa;
+   
+   
+
+}
+.lap-box p{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
